@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuitemgrid7"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="speech"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuitemgrid6"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="web"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuitemgrid1"
+
+        android:title="Share" />
+
+    <item
+        android:id="@+id/menuitemgrid3"
+        android:title="About Me"
+        />
+    <item
+        android:id="@+id/menuitemgrid4"
+        android:title="Help"
+        />
+
+
+    <item
+        android:id="@+id/menuitemgrid5"
+        android:title="Exit"
+        />
+</menu>

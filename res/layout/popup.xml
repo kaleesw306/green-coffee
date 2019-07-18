@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poplayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="10dp"
+    android:background="#326121"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/popimag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/popledittext"
+        android:layout_width="235dp"
+        android:layout_height="283dp"
+
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:hint="Enter your Code" />
+
+    <Button
+        android:id="@+id/popupButton3"
+        android:layout_width="76dp"
+        android:layout_height="56dp"
+        android:background="#326121"
+        android:drawableBottom="@android:drawable/ic_menu_save" />
+
+    <Button
+        android:id="@+id/popupButton2"
+        android:layout_width="76dp"
+        android:layout_height="56dp"
+        android:background="#326121"
+
+        android:drawableBottom="@android:drawable/ic_menu_close_clear_cancel" />
+
+</LinearLayout>
